@@ -58,6 +58,10 @@ local plugins = {
       require "custom.configs.lspconfig"
       require "custom.configs.cdslspconfig"
     end
+  },
+  {
+    "christoomey/vim-tmux-navigator",
+    event = "VeryLazy"
   }
 }
 return plugins
